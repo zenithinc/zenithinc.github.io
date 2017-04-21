@@ -35,7 +35,7 @@
   scramble = function(element, text, options) {
     var $element, addGlitch, character, defaults, ghostCharacter, ghostCharacters, ghostLength, ghostText, ghosts, glitchCharacter, glitchCharacters, glitchIndex, glitchLength, glitchProbability, glitchText, glitches, i, j, k, letter, object, order, output, parameters, ref, results, settings, shuffle, target, textCharacters, textLength, wrap;
     defaults = {
-      probability: 0.2,
+      probability: 0.7,
       glitches: '-|/\\\\\_',
       blank: '',
       duration: text.length * 40,
